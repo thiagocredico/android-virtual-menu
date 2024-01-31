@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_menu_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@color/secondary"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/item_menu_linear_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/item_menu_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/prato_01" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/item_menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/secondary"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="5dp"
+            android:text="@string/detail_text"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

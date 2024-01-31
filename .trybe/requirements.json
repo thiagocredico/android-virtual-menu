@@ -1,0 +1,52 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "test_req_1_crie_a_estrutura_da_tela_inicial_do_cardapio",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "test_req_2_crie_a_estrutura_da_tela_de_detalhe_do_prato",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "test_req_3_crie_a_lista_de_pratos_disponiveis_no_cardapio",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "test_req_4_crie_o_layout_responsavel_por_cada_item_no_cardapio",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "test_req_5_crie_o_evento_para_clicar_no_item_do_menu",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "test_req_6_crie_o_evento_do_botao_de_voltar_da_tela_de_detalhe_do_prato",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    }
+  ]
+}

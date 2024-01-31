@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_linear_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".views.MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/main_logo"
+        android:layout_width="288dp"
+        android:layout_height="147dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/logo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="Cardápio Online"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+</LinearLayout>
